@@ -13,10 +13,10 @@ choice = ['rock', 'paper', 'scissors'] # the three choices in the game
 
 n_play = 30 # number of times the game is played
 
-P1_choice_tot = [0]*n_play # empty matrix to store P1 choices
-P2_choice_tot = [0]*n_play # empty matrix to store P2 choices
-P1_wins = [0]*n_play # empty matrix to store P1 wins
-P2_wins = [0]*n_play # empty matrix to store P2 wins
+P1_choice_tot = [0]*n_play # empty list to store P1 choices
+P2_choice_tot = [0]*n_play # empty list to store P2 choices
+P1_wins = [0]*n_play # empty list to store P1 wins
+P2_wins = [0]*n_play # empty list to store P2 wins
 
 for x in range(0, n_play): 
     
